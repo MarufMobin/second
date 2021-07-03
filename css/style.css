@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Banner section code */
+.banner-section{
+    width: 100%;
+    display: flex;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+}
+.banner-section .container-half{
+    width: 50%;
+    margin-left: 40px;
+}
+.banner-section .container-half h1{
+    font-size: 50px;
+    margin: 40px 0px;
+}
+.banner-section .container-half .text-deco{
+    color: orange;
+}
+.banner-section .container-half h3{
+   /* font-size: 20px; */
+   font-weight: 600;
+   margin: 50px 0px 20px;
+}
+.banner-section .container-half p{
+    margin: 16px 0px 20px;
+
+}
+.banner-section .container-half .btn-info{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-image: linear-gradient(tomato, orange);
+}
+.banner-section .container-half img{
+    width: 80%;
+}
+/* Banner section code */
+/* Dreame-section */
+.dreame-section{
+        width: 100%;
+        margin: 150px 0px 0px;
+        display: flex;
+        background-image: url("../images/dream.png");
+        background-repeat: no-repeat; 
+        background-position: right;  
+}
+.dreame-section .container-half{
+    width: 50%;
+    margin-left: 40px;
+}
+.dreame-section .container-half h1{
+    font-size: 50px;
+    margin: 40px 0px;
+}
+.dreame-section .container-half .text-deco{
+    color: orange;
+}
+.dreame-section .container-half h3{
+   font-size: 40px;
+   font-weight: 600;
+   margin: 50px 0px 20px;
+}
+.dreame-section .container-half p{
+    margin: 16px 0px 20px;
+
+}
+.dreame-section .container-half .btn-info{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-image: linear-gradient(tomato, orange);
+}
+.dreame-section .container-half img{
+    width: 80%;
+}
+/* Dreame-section */
