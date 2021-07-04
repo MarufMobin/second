@@ -87,3 +87,54 @@ body{
     width: 80%;
 }
 /* Dreame-section */
+/* experince-section */
+.experince-section{
+    width: 100%;
+    margin: 150px 0px;
+}
+.experince-section h1{
+    font-size: 50px;
+}
+.experince-div{
+    display: flex;
+    background-image: url("../images/left.png");
+    background-repeat: no-repeat;
+}
+.experince-div h1{
+    font-size: 50px;
+}
+.half-div{
+    width: 40%;
+    margin: 2% 5% 0;
+    box-shadow: 7px 7px 40px black;
+    padding: 40px;
+    border-radius: 12px;
+}
+#half-fist{
+    border-left: 10px solid;
+    border-image: linear-gradient(#3cd1f6, #0004ff) 30;
+    border-image-slice: 7;
+}
+#half-second{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(255, 133, 106), rgb(63, 6, 6)) 30;
+    border-image-slice: 7;
+}
+.half-div h1{
+    font-size: 50px;
+}
+.half-div h3{
+    font-size: 20px;
+    margin: 20px 0px;
+    color: orange;
+}
+
+/* experince-section */
+/* footer */
+footer{
+    text-align: center;
+    margin: 50px 0px 25px;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* footer */
